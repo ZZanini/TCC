@@ -1,0 +1,29 @@
+body{
+    font-family: 'Yomogi', cursive;
+    background-color: pink;
+}
+
+.login{
+    background-color: aquamarine;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    height: 50px;
+    margin-top: -13px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login h1{
+    font-size: 20px;
+}
+
+.buttons{
+    font-size: 15px;
+}
+
+.play, .comojogar, .info{
+    background-color: aquamarine;
+    float: left;
+}
