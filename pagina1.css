@@ -7,23 +7,90 @@ body{
     background-color: aquamarine;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 500px;
+    width: 800px;
     height: 50px;
     margin-top: -13px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.login h1{
     font-size: 20px;
+    font-weight: bold;
 }
 
-.buttons{
-    font-size: 15px;
+input{
+    border-radius: 10px;
+    border-color: white;
+}
+input:focus {
+    border-color: #ffbcbc;
+    box-shadow: 0 0 5px #ffbcbc;
+    outline: none;
 }
 
-.play, .comojogar, .info{
+.login button{
+    background-color: pink;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.info{
     background-color: aquamarine;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 8px;
+    float: right;
+}
+.info:hover{
+    background-color: aquamarine;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100px;
+}
+.info:hover h1{
+    opacity: 0;
+}
+
+
+.buttons {
+    background-color: #ffffff85;
+    width: 1300px;
+    height: 90px;
+    margin: auto;
+    padding-top: 400px;
+}
+
+.buttons h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(255, 4, 138, 0.89);
+}
+
+.hist, .play, .comojogar{
+    background-color: aquamarine;
+    width: 210px;
+    height: 50px;
     float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 40px;
+    padding-bottom: 30px;
+}
+.hist:hover, .play:hover, .comojogar:hover{
+    background-color: pink;
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.footer{
+    line-height: 2px;
+    text-align: center;
 }
